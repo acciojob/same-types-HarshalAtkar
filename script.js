@@ -1,5 +1,11 @@
 function isSameType(value1, value2) {
   //your js code here
+	if(value1==value2){
+		return true;
+	}
+	else if(value1==nan&&value2==nan){
+		return false;
+	}
 }
 
 // do not change the code below.
